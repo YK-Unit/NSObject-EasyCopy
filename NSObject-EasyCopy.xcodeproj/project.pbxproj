@@ -16,6 +16,8 @@
 		98ED203A1C0D736F006E93A6 /* NSObject_EasyCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20391C0D736F006E93A6 /* NSObject_EasyCopyTests.m */; };
 		98ED20461C0D73B8006E93A6 /* NSObject+EasyCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20451C0D73B8006E93A6 /* NSObject+EasyCopy.m */; };
 		98ED20471C0D73B8006E93A6 /* NSObject+EasyCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20451C0D73B8006E93A6 /* NSObject+EasyCopy.m */; };
+		98F08F4C1C14204300F4B924 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F08F4B1C14204300F4B924 /* Teacher.m */; };
+		98F08F4F1C14205C00F4B924 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F08F4E1C14205C00F4B924 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,10 @@
 		98ED203B1C0D736F006E93A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98ED20441C0D73B8006E93A6 /* NSObject+EasyCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+EasyCopy.h"; path = "NSObject+EasyCopy/NSObject+EasyCopy.h"; sourceTree = "<group>"; };
 		98ED20451C0D73B8006E93A6 /* NSObject+EasyCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+EasyCopy.m"; path = "NSObject+EasyCopy/NSObject+EasyCopy.m"; sourceTree = "<group>"; };
+		98F08F4A1C14204300F4B924 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		98F08F4B1C14204300F4B924 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		98F08F4D1C14205C00F4B924 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		98F08F4E1C14205C00F4B924 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 		98ED201E1C0D736F006E93A6 /* NSObject-EasyCopy */ = {
 			isa = PBXGroup;
 			children = (
+				98F08F4D1C14205C00F4B924 /* Student.h */,
+				98F08F4E1C14205C00F4B924 /* Student.m */,
+				98F08F4A1C14204300F4B924 /* Teacher.h */,
+				98F08F4B1C14204300F4B924 /* Teacher.m */,
 				98ED20221C0D736F006E93A6 /* AppDelegate.h */,
 				98ED20231C0D736F006E93A6 /* AppDelegate.m */,
 				98ED20251C0D736F006E93A6 /* ViewController.h */,
@@ -228,7 +238,9 @@
 				98ED20271C0D736F006E93A6 /* ViewController.m in Sources */,
 				98ED20241C0D736F006E93A6 /* AppDelegate.m in Sources */,
 				98ED20461C0D73B8006E93A6 /* NSObject+EasyCopy.m in Sources */,
+				98F08F4C1C14204300F4B924 /* Teacher.m in Sources */,
 				98ED20211C0D736F006E93A6 /* main.m in Sources */,
+				98F08F4F1C14205C00F4B924 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				98ED20401C0D736F006E93A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98ED20411C0D736F006E93A6 /* Build configuration list for PBXNativeTarget "NSObject-EasyCopyTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				98ED20431C0D736F006E93A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

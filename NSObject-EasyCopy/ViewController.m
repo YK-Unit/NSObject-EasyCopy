@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "Teacher.h"
+#import "Student.h"
+#import "NSObject+EasyCopy.h"
 
 @interface ViewController ()
 
@@ -17,6 +20,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    Student *monitor = [[Student alloc] init];
+    monitor.grade = 1;
+    monitor.name = @"monitor";
+    monitor.male = NO;
+    
+    Teacher *teacher = [[Teacher alloc] init];
+    teacher.name = @"York";
+    teacher.monitor = monitor;
+    teacher.students = [[NSMutableArray alloc] init];
+    
+    for (NSInteger i = 0; i < 2; i++) {
+        Student *student = [[Student alloc] init];
+        student.grade = 1;
+        student.name = [NSString stringWithFormat:@"studnet_%ld",(long)i+1];
+        student.male = (i%2);
+        
+        [teacher.students addObject:student];
+    }
+    
+    Teacher *shallowTeacher = [[Teacher alloc] init];
+    [shallowTeacher easyShallowCopy:teacher];
+    
+    Teacher *deepTeacher = [[Teacher alloc] init];
+    [deepTeacher easyDeepCopy:teacher];
+    
+    NSLog(@"the address of monitor:\n%p\n%p\n%p",teacher.monitor,shallowTeacher.monitor,deepTeacher.monitor);
+    NSLog(@"the address of students:\n%p\n%p\n%p",teacher.students,shallowTeacher.students,deepTeacher.students);
 }
 
 - (void)didReceiveMemoryWarning {
