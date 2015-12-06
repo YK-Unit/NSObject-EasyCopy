@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98ED20211C0D736F006E93A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20201C0D736F006E93A6 /* main.m */; };
+		98ED20241C0D736F006E93A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20231C0D736F006E93A6 /* AppDelegate.m */; };
+		98ED20271C0D736F006E93A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20261C0D736F006E93A6 /* ViewController.m */; };
+		98ED202A1C0D736F006E93A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98ED20281C0D736F006E93A6 /* Main.storyboard */; };
+		98ED202C1C0D736F006E93A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98ED202B1C0D736F006E93A6 /* Assets.xcassets */; };
+		98ED202F1C0D736F006E93A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98ED202D1C0D736F006E93A6 /* LaunchScreen.storyboard */; };
+		98ED203A1C0D736F006E93A6 /* NSObject_EasyCopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20391C0D736F006E93A6 /* NSObject_EasyCopyTests.m */; };
+		98ED20461C0D73B8006E93A6 /* NSObject+EasyCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20451C0D73B8006E93A6 /* NSObject+EasyCopy.m */; };
+		98ED20471C0D73B8006E93A6 /* NSObject+EasyCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20451C0D73B8006E93A6 /* NSObject+EasyCopy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98ED20361C0D736F006E93A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98ED20141C0D736F006E93A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98ED201B1C0D736F006E93A6;
+			remoteInfo = "NSObject-EasyCopy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98ED201C1C0D736F006E93A6 /* NSObject-EasyCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSObject-EasyCopy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98ED20201C0D736F006E93A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98ED20221C0D736F006E93A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98ED20231C0D736F006E93A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98ED20251C0D736F006E93A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98ED20261C0D736F006E93A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98ED20291C0D736F006E93A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98ED202B1C0D736F006E93A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98ED202E1C0D736F006E93A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98ED20301C0D736F006E93A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98ED20351C0D736F006E93A6 /* NSObject-EasyCopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSObject-EasyCopyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98ED20391C0D736F006E93A6 /* NSObject_EasyCopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_EasyCopyTests.m; sourceTree = "<group>"; };
+		98ED203B1C0D736F006E93A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98ED20441C0D73B8006E93A6 /* NSObject+EasyCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+EasyCopy.h"; path = "NSObject+EasyCopy/NSObject+EasyCopy.h"; sourceTree = "<group>"; };
+		98ED20451C0D73B8006E93A6 /* NSObject+EasyCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+EasyCopy.m"; path = "NSObject+EasyCopy/NSObject+EasyCopy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98ED20191C0D736F006E93A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98ED20321C0D736F006E93A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98ED20131C0D736F006E93A6 = {
+			isa = PBXGroup;
+			children = (
+				98ED20481C0D73BC006E93A6 /* NSObject+EasyCopy */,
+				98ED201E1C0D736F006E93A6 /* NSObject-EasyCopy */,
+				98ED20381C0D736F006E93A6 /* NSObject-EasyCopyTests */,
+				98ED201D1C0D736F006E93A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98ED201D1C0D736F006E93A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98ED201C1C0D736F006E93A6 /* NSObject-EasyCopy.app */,
+				98ED20351C0D736F006E93A6 /* NSObject-EasyCopyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98ED201E1C0D736F006E93A6 /* NSObject-EasyCopy */ = {
+			isa = PBXGroup;
+			children = (
+				98ED20221C0D736F006E93A6 /* AppDelegate.h */,
+				98ED20231C0D736F006E93A6 /* AppDelegate.m */,
+				98ED20251C0D736F006E93A6 /* ViewController.h */,
+				98ED20261C0D736F006E93A6 /* ViewController.m */,
+				98ED20281C0D736F006E93A6 /* Main.storyboard */,
+				98ED202B1C0D736F006E93A6 /* Assets.xcassets */,
+				98ED202D1C0D736F006E93A6 /* LaunchScreen.storyboard */,
+				98ED20301C0D736F006E93A6 /* Info.plist */,
+				98ED201F1C0D736F006E93A6 /* Supporting Files */,
+			);
+			path = "NSObject-EasyCopy";
+			sourceTree = "<group>";
+		};
+		98ED201F1C0D736F006E93A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98ED20201C0D736F006E93A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98ED20381C0D736F006E93A6 /* NSObject-EasyCopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				98ED20391C0D736F006E93A6 /* NSObject_EasyCopyTests.m */,
+				98ED203B1C0D736F006E93A6 /* Info.plist */,
+			);
+			path = "NSObject-EasyCopyTests";
+			sourceTree = "<group>";
+		};
+		98ED20481C0D73BC006E93A6 /* NSObject+EasyCopy */ = {
+			isa = PBXGroup;
+			children = (
+				98ED20441C0D73B8006E93A6 /* NSObject+EasyCopy.h */,
+				98ED20451C0D73B8006E93A6 /* NSObject+EasyCopy.m */,
+			);
+			name = "NSObject+EasyCopy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98ED201B1C0D736F006E93A6 /* NSObject-EasyCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98ED203E1C0D736F006E93A6 /* Build configuration list for PBXNativeTarget "NSObject-EasyCopy" */;
+			buildPhases = (
+				98ED20181C0D736F006E93A6 /* Sources */,
+				98ED20191C0D736F006E93A6 /* Frameworks */,
+				98ED201A1C0D736F006E93A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSObject-EasyCopy";
+			productName = "NSObject-EasyCopy";
+			productReference = 98ED201C1C0D736F006E93A6 /* NSObject-EasyCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98ED20341C0D736F006E93A6 /* NSObject-EasyCopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98ED20411C0D736F006E93A6 /* Build configuration list for PBXNativeTarget "NSObject-EasyCopyTests" */;
+			buildPhases = (
+				98ED20311C0D736F006E93A6 /* Sources */,
+				98ED20321C0D736F006E93A6 /* Frameworks */,
+				98ED20331C0D736F006E93A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98ED20371C0D736F006E93A6 /* PBXTargetDependency */,
+			);
+			name = "NSObject-EasyCopyTests";
+			productName = "NSObject-EasyCopyTests";
+			productReference = 98ED20351C0D736F006E93A6 /* NSObject-EasyCopyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98ED20141C0D736F006E93A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "YK-Unit";
+				TargetAttributes = {
+					98ED201B1C0D736F006E93A6 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					98ED20341C0D736F006E93A6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 98ED201B1C0D736F006E93A6;
+					};
+				};
+			};
+			buildConfigurationList = 98ED20171C0D736F006E93A6 /* Build configuration list for PBXProject "NSObject-EasyCopy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98ED20131C0D736F006E93A6;
+			productRefGroup = 98ED201D1C0D736F006E93A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98ED201B1C0D736F006E93A6 /* NSObject-EasyCopy */,
+				98ED20341C0D736F006E93A6 /* NSObject-EasyCopyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98ED201A1C0D736F006E93A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98ED202F1C0D736F006E93A6 /* LaunchScreen.storyboard in Resources */,
+				98ED202C1C0D736F006E93A6 /* Assets.xcassets in Resources */,
+				98ED202A1C0D736F006E93A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98ED20331C0D736F006E93A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98ED20181C0D736F006E93A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98ED20271C0D736F006E93A6 /* ViewController.m in Sources */,
+				98ED20241C0D736F006E93A6 /* AppDelegate.m in Sources */,
+				98ED20461C0D73B8006E93A6 /* NSObject+EasyCopy.m in Sources */,
+				98ED20211C0D736F006E93A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98ED20311C0D736F006E93A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98ED20471C0D73B8006E93A6 /* NSObject+EasyCopy.m in Sources */,
+				98ED203A1C0D736F006E93A6 /* NSObject_EasyCopyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98ED20371C0D736F006E93A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98ED201B1C0D736F006E93A6 /* NSObject-EasyCopy */;
+			targetProxy = 98ED20361C0D736F006E93A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98ED20281C0D736F006E93A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98ED20291C0D736F006E93A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98ED202D1C0D736F006E93A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98ED202E1C0D736F006E93A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98ED203C1C0D736F006E93A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98ED203D1C0D736F006E93A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98ED203F1C0D736F006E93A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSObject-EasyCopy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.bobo.NSObject-EasyCopy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98ED20401C0D736F006E93A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "NSObject-EasyCopy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.bobo.NSObject-EasyCopy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98ED20421C0D736F006E93A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSObject-EasyCopyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.bobo.NSObject-EasyCopyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSObject-EasyCopy.app/NSObject-EasyCopy";
+			};
+			name = Debug;
+		};
+		98ED20431C0D736F006E93A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "NSObject-EasyCopyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.bobo.NSObject-EasyCopyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSObject-EasyCopy.app/NSObject-EasyCopy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98ED20171C0D736F006E93A6 /* Build configuration list for PBXProject "NSObject-EasyCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98ED203C1C0D736F006E93A6 /* Debug */,
+				98ED203D1C0D736F006E93A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98ED203E1C0D736F006E93A6 /* Build configuration list for PBXNativeTarget "NSObject-EasyCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98ED203F1C0D736F006E93A6 /* Debug */,
+				98ED20401C0D736F006E93A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98ED20411C0D736F006E93A6 /* Build configuration list for PBXNativeTarget "NSObject-EasyCopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98ED20421C0D736F006E93A6 /* Debug */,
+				98ED20431C0D736F006E93A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98ED20141C0D736F006E93A6 /* Project object */;
+}
