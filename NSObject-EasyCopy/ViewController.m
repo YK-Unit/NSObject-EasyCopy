@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Teacher.h"
 #import "Student.h"
+#import "Monitor.h"
 #import "NSObject+EasyCopy.h"
 
 @interface ViewController ()
@@ -21,11 +22,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
-    Student *monitor = [[Student alloc] init];
+    Monitor *monitor = [[Monitor alloc] init];
     monitor.grade = 1;
     monitor.name = @"monitor";
-    monitor.male = NO;
+    monitor.male = YES;
+    monitor.phoneNum = @"12345678901";
     
     Teacher *teacher = [[Teacher alloc] init];
     teacher.name = @"York";
@@ -46,6 +47,12 @@
     
     Teacher *deepTeacher = [[Teacher alloc] init];
     [deepTeacher easyDeepCopy:teacher];
+    
+    Monitor *shallowMonitor = [[Monitor alloc] init];
+    [shallowMonitor easyShallowCopy:monitor];
+    
+    Monitor *deepMonitor = [[Monitor alloc] init];
+    [deepMonitor easyDeepCopy:monitor];
     
     NSLog(@"the address of monitor:\n%p\n%p\n%p",teacher.monitor,shallowTeacher.monitor,deepTeacher.monitor);
     NSLog(@"the address of students:\n%p\n%p\n%p",teacher.students,shallowTeacher.students,deepTeacher.students);

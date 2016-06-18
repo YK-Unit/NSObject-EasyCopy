@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98E34A9A1D152FB0008FF65F /* Monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E34A991D152FB0008FF65F /* Monitor.m */; };
 		98ED20211C0D736F006E93A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20201C0D736F006E93A6 /* main.m */; };
 		98ED20241C0D736F006E93A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20231C0D736F006E93A6 /* AppDelegate.m */; };
 		98ED20271C0D736F006E93A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ED20261C0D736F006E93A6 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98E34A981D152FB0008FF65F /* Monitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monitor.h; sourceTree = "<group>"; };
+		98E34A991D152FB0008FF65F /* Monitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monitor.m; sourceTree = "<group>"; };
 		98ED201C1C0D736F006E93A6 /* NSObject-EasyCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSObject-EasyCopy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98ED20201C0D736F006E93A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98ED20221C0D736F006E93A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 			children = (
 				98F08F4D1C14205C00F4B924 /* Student.h */,
 				98F08F4E1C14205C00F4B924 /* Student.m */,
+				98E34A981D152FB0008FF65F /* Monitor.h */,
+				98E34A991D152FB0008FF65F /* Monitor.m */,
 				98F08F4A1C14204300F4B924 /* Teacher.h */,
 				98F08F4B1C14204300F4B924 /* Teacher.m */,
 				98ED20221C0D736F006E93A6 /* AppDelegate.h */,
@@ -237,6 +242,7 @@
 			files = (
 				98ED20271C0D736F006E93A6 /* ViewController.m in Sources */,
 				98ED20241C0D736F006E93A6 /* AppDelegate.m in Sources */,
+				98E34A9A1D152FB0008FF65F /* Monitor.m in Sources */,
 				98ED20461C0D73B8006E93A6 /* NSObject+EasyCopy.m in Sources */,
 				98F08F4C1C14204300F4B924 /* Teacher.m in Sources */,
 				98ED20211C0D736F006E93A6 /* main.m in Sources */,

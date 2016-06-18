@@ -28,7 +28,7 @@
     
     while (instanceClass != [NSObject class]) {
         unsigned int propertyListCount = 0;
-        objc_property_t *propertyList = class_copyPropertyList(currentClass, &propertyListCount);
+        objc_property_t *propertyList = class_copyPropertyList(instanceClass, &propertyListCount);
         for (int i = 0; i < propertyListCount; i++) {
             objc_property_t property = propertyList[i];
             const char *property_name = property_getName(property);
@@ -51,6 +51,7 @@
     return YES;
 }
 
+
 - (BOOL)easyDeepCopy:(NSObject *)instance
 {
     Class currentClass = [self class];
@@ -68,7 +69,7 @@
     
     while (instanceClass != [NSObject class]) {
         unsigned int propertyListCount = 0;
-        objc_property_t *propertyList = class_copyPropertyList(currentClass, &propertyListCount);
+        objc_property_t *propertyList = class_copyPropertyList(instanceClass, &propertyListCount);
         for (int i = 0; i < propertyListCount; i++) {
             objc_property_t property = propertyList[i];
             const char *property_name = property_getName(property);
@@ -103,7 +104,6 @@
     
     return YES;
 }
-
 
 + (BOOL)isNSObjectClass:(Class)clazz{
     

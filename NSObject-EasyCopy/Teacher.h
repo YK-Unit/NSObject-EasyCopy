@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Student.h"
+#import "Monitor.h"
 
 @interface Teacher : NSObject
 
 @property (nonatomic,copy) NSString *name;
-@property (nonatomic,strong) Student *monitor;
+@property (nonatomic,strong) Monitor *monitor;
 @property (nonatomic,strong) NSMutableArray *students;
 
 @end
