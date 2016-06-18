@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "NSObject-EasyCopy"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A copy category for NSObject."
 
   s.description  = <<-DESC
